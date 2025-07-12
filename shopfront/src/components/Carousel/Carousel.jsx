@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import "./Carousel.scss"
+import "/public/Carousel-1.png"
 
 const slides = [
     {
