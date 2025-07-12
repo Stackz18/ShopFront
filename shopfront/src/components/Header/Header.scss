@@ -1,0 +1,30 @@
+@use "../../assets/scss/mixins.scss" as *;
+header {
+    background: #000000;
+    padding: 30px 15px;
+    color: #fff;
+
+    @include respond(lg) {
+        padding: 30px 50px;
+    }
+
+    h1 {
+        font-size: 40px;
+        margin: 20px 0 40px;
+
+        @include respond(lg) {
+            font-size: 80px;
+        }
+    }
+
+    .justify-right {
+        display: flex;
+        justify-content: flex-end;
+        margin: auto;
+
+        img {
+            width: 80px;
+            height: 80px;
+        }
+    }
+}
