@@ -1,24 +1,24 @@
-import React, { useState, useEffect } from 'react';
-import "./Carousel.scss";
+import React, { useState, useEffect } from 'react'
+import "./Carousel.scss"
 
 const slides = [
     {
-        img: '/src/assets/img/Carousel-1.png',
+        img: '/public/Carousel-1.png',
         heading: 'Headwear',
         price: 'From £24.00',
     },
     {
-        img: '/src/assets/img/Carousel-2.png',
+        img: '/public/Carousel-2.png',
         heading: 'T-shirts',
         price: 'From £18.00',
     },
     {
-        img: '/src/assets/img/Carousel-3.png',
+        img: '/public/Carousel-3.png',
         heading: 'Bottoms',
         price: 'From £30.00',
     },
     {
-        img: '/src/assets/img/Carousel-1.png',
+        img: '/public/Carousel-1.png',
         heading: 'Headwear',
         price: 'From £24.00',
     }
